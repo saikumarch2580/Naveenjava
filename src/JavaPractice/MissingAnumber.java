@@ -5,7 +5,7 @@ public class MissingAnumber {
 	public static void main(String[] args) {
 
 		int[] a = { 1, 2, 3, 5 };
-		int missing = a[0];
+		int missing = 0;
 		int total = a[0];
 		for (int i = 0; i < a.length; i++) {
 			missing = missing + a[i];
